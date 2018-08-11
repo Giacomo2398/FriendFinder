@@ -133,7 +133,7 @@
 
         <br>
         <br>
-        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"> Submit</button>
         <hr>
         <footer class="footer">
             <div class="container">
@@ -151,7 +151,7 @@
         </div>
         <div class="modal-body">
           <h2 id="match-name"></h2>
-          <img id="match-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhwTmz7u-LBeT6NHCundEG07Nloc1zFUYZBiClIwzW6tbdow1lrg" alt="">
+          <img id="match-img" height="400 px" width= "500 px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhwTmz7u-LBeT6NHCundEG07Nloc1zFUYZBiClIwzW6tbdow1lrg" alt="">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -176,7 +176,7 @@
         width: "95%"
       }
     };
-    for (let selector in config) {
+    for (var selector in config) {
       $(selector).chosen(config[selector]);
     }
 
